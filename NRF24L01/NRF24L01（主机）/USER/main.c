@@ -7,7 +7,8 @@
 
 int main(void)
  {	 
-	u16 t=0;			 
+	u16 t=0;
+	u16 tt=0;	 
 	u8 tmp_buf[4];	    
 	delay_init();	    	 //延时函数初始化	  
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//设置中断优先级分组为组2：2位抢占优先级，2位响应优先级
@@ -26,19 +27,19 @@ int main(void)
 	while(1)
 	{	  	
 			tmp_buf[0]=MV_FLAG;
-			tmp_buf[1]=1;
-			tmp_buf[2]=1;
-			tmp_buf[3]=1;
+			tmp_buf[1]=GOGO;
+			tmp_buf[2]=MV_ERROR;
+			tmp_buf[3]=DATA;
 
 			if(NRF24L01_TxPacket(tmp_buf)==TX_OK)
 			{
-				printf("Sended DATA:");	
+//				printf("Sended DATA:");	
 				for(t = 0; t < 4; t++){
-				
-					printf("%c", tmp_buf[t]);
+					
+					printf("%d", MV_FLAG);
 				}   
 			}else
-			{										   	
+			{					
 				printf("Send Failed "); 
 			};
 			//printf("%d %d %d\r]n",MV_COLOR,MV_ERROR,MV_FLAG);

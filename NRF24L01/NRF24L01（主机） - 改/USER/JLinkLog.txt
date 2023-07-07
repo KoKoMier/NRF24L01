@@ -1,0 +1,67 @@
+T39C8 000:053.795   SEGGER J-Link V7.22b Log File
+T39C8 000:054.015   DLL Compiled: Jun 17 2021 17:22:49
+T39C8 000:054.056   Logging started @ 2023-07-06 17:04
+T39C8 000:054.094 - 54.113ms
+T39C8 000:054.140 JLINK_SetWarnOutHandler(...)
+T39C8 000:054.179 - 0.058ms
+T39C8 000:054.218 JLINK_OpenEx(...)
+T39C8 000:055.586   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T39C8 000:056.058   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T39C8 000:058.022   Hardware: V7.00
+T39C8 000:058.113   S/N: 20090928
+T39C8 000:058.170   OEM: SEGGER
+T39C8 000:058.226   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T39C8 000:059.321   TELNET listener socket opened on port 19021
+T39C8 000:059.719   WEBSRV Starting webserver
+T39C8 000:059.919   WEBSRV Webserver running on local port 19080
+T39C8 000:059.981 - 5.784ms returns "O.K."
+T39C8 000:060.046 JLINK_GetEmuCaps()
+T39C8 000:060.099 - 0.075ms returns 0x88EA5833
+T39C8 000:060.155 JLINK_TIF_GetAvailable(...)
+T39C8 000:060.392 - 0.274ms
+T39C8 000:060.462 JLINK_SetErrorOutHandler(...)
+T39C8 000:060.503 - 0.063ms
+T39C8 000:060.568 JLINK_ExecCommand("ProjectFile = "C:\Users\cyh14\Desktop\dog\Ò£¿Ø\NRF24L01\NRF24L01£¨Ö÷»ú£© - ¸Ä\USER\JLinkSettings.ini"", ...). 
+T39C8 000:075.134 - 14.602ms returns 0x00
+T39C8 000:097.156 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T39C8 000:108.285   Device "STM32F103C8" selected.
+T39C8 000:109.059 - 11.846ms returns 0x00
+T39C8 000:109.123 JLINK_GetHardwareVersion()
+T39C8 000:109.163 - 0.058ms returns 70000
+T39C8 000:109.203 JLINK_GetDLLVersion()
+T39C8 000:109.241 - 0.056ms returns 72202
+T39C8 000:109.280 JLINK_GetOEMString(...)
+T39C8 000:109.320 JLINK_GetFirmwareString(...)
+T39C8 000:109.364 - 0.063ms
+T39C8 000:129.048 JLINK_GetDLLVersion()
+T39C8 000:129.122 - 0.094ms returns 72202
+T39C8 000:129.164 JLINK_GetCompileDateTime()
+T39C8 000:129.203 - 0.060ms
+T39C8 000:135.440 JLINK_GetFirmwareString(...)
+T39C8 000:135.513 - 0.115ms
+T39C8 000:141.022 JLINK_GetHardwareVersion()
+T39C8 000:141.094 - 0.091ms returns 70000
+T39C8 000:146.801 JLINK_GetSN()
+T39C8 000:146.883 - 0.103ms returns 20090928
+T39C8 000:152.573 JLINK_GetOEMString(...)
+T39C8 000:167.391 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T39C8 000:168.099 - 0.749ms returns 0x00
+T39C8 000:168.166 JLINK_HasError()
+T39C8 000:168.216 JLINK_SetSpeed(5000)
+T39C8 000:168.387 - 0.201ms
+T39C8 000:168.442 JLINK_GetId()
+T39C8 000:175.369   InitTarget() start
+T39C8 000:175.463    J-Link Script File: Executing InitTarget()
+T39C8 000:559.940   Can not attach to CPU. Trying connect under reset.
+T39C8 001:122.409   Connecting to CPU via connect under reset failed.
+T39C8 001:179.326   InitTarget() end
+T39C8 001:246.786   InitTarget() start
+T39C8 001:246.881    J-Link Script File: Executing InitTarget()
+T39C8 001:759.016   Can not attach to CPU. Trying connect under reset.
+T39C8 001:971.943   Connecting to CPU via connect under reset failed.
+T39C8 002:029.963   InitTarget() end
+T39C8 002:030.060 - 1861.642ms returns 0x00000000
+T39C8 003:367.006 JLINK_Close()
+T39C8 003:382.693 - 15.753ms
+T39C8 003:382.782   
+T39C8 003:382.825   Closed
